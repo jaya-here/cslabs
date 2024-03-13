@@ -1,0 +1,126 @@
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.content {
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 5;
+    background-color: white;
+}
+
+
+.header {
+    background-color: lightseagreen;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    gap:1rem;
+}
+
+.header-arrow-icon {
+    margin-left: 1rem;
+}
+
+.segment {
+    margin:1rem 0.5rem 0.5rem 1rem;
+    font-weight: 500;
+    
+}
+
+.segment p {
+    margin: 0.5rem 0rem;
+}
+
+.segment h4 {
+    margin: 0.5rem 0rem;
+}
+
+.segment-flex {
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+}
+
+input {
+padding:0.5rem 1rem 0.5rem 0.5rem;
+border:1px solid lightgray
+}
+
+input::placeholder {
+color:lightgray;
+
+}
+
+.schemabutton {
+   border: none;
+   background-color: transparent;
+   margin: 0.5rem 0.5rem 0.5rem 1.5rem;
+   color:lightseagreen;
+   text-decoration: underline;
+   display: block;
+   font-weight: 600;
+   cursor: pointer;
+}
+  
+.savesegment {
+    margin-left:1rem;
+    border: 1px solid transparent;
+    border-radius: 0.1rem;
+    background-color: lightseagreen ;
+    margin: 1rem 0.3rem 1rem 1.5rem;
+    padding: 0.75rem 1rem 0.75rem 0.45rem;
+    color:white;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cancelsegment {
+    margin-left:1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.1rem;
+    background-color: white ;
+    margin: 1rem 0.3rem 1rem 1.5rem;
+    padding: 0.75rem 1rem 0.75rem 0.45rem;
+    color:red;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.formsegment {
+    margin-left:1rem;
+    border: 1px solid darkgray;
+    border-radius: 0.1rem;
+    background-color: transparent;
+    margin: 1rem 0.3rem 1rem 1.5rem;
+    padding: 0.75rem 1rem 0.75rem 0.45rem;
+    color:darkslategray;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}

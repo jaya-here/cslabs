@@ -1,0 +1,41 @@
+.dropdown {
+    display: flex;
+    gap:0.45rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    width:60%
+}
+
+.circle {
+    width:0.75rem;
+    height:0.75rem;
+    border-radius: 50%;
+    
+}
+
+.select-item {
+    flex-grow: 1;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+}
+
+.green {
+    background-color:greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color:lightgray;
+}
+
+.select-item {
+    padding:0.5rem 2rem 0.5rem 0.5rem;
+    margin-right: 0.5rem;
+}
